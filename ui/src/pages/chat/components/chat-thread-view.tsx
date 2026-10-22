@@ -208,6 +208,7 @@ export function ChatThread(input: {
           },
         ]}
         role="log"
+        aria-label={t("chat.thread.transcriptLabel")}
         aria-live="off"
         aria-relevant="additions"
         tabindex={0}
